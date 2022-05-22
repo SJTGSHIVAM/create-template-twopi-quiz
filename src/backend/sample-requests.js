@@ -1,6 +1,8 @@
 // This file provides sample uasge of all the api enpoints.
 // you can play around with TwopiRest component by feeding this array to preset
 // for eg:  <TwopiRest preset={sample_requests} />
+const authToken =
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNqdGdzaGl2YW0ifQ.vzWhvz8B8qnFvMDCZ5euP7Dfh0cZLbCcoLsMdaraFQY";
 export const sample_requests = [
   {
     name: "user signup",
@@ -52,8 +54,7 @@ export const sample_requests = [
     query_str: "",
     body: {},
     header: {
-      authorization:
-        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlN1cmJoaWt1a3JldGk5OSJ9.RGhSMsgXKhQe7cUhQ-4BF5EQKhJ_GDbuvMsgAx9noKU",
+      authorization: authToken,
     },
   },
   {
@@ -87,8 +88,7 @@ export const sample_requests = [
       incorrectAnswered: 88,
     },
     header: {
-      authorization:
-        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNqdGdzaGl2YW0ifQ.vzWhvz8B8qnFvMDCZ5euP7Dfh0cZLbCcoLsMdaraFQY",
+      authorization: authToken,
     },
   },
   {
@@ -99,8 +99,7 @@ export const sample_requests = [
     query_str: "?tags=HTML,JS&lvl=EASY&length=5",
     body: {},
     header: {
-      authorization:
-        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNqdGdzaGl2YW0ifQ.vzWhvz8B8qnFvMDCZ5euP7Dfh0cZLbCcoLsMdaraFQY",
+      authorization: authToken,
     },
   },
   {
@@ -111,8 +110,7 @@ export const sample_requests = [
     query_str: "",
     body: {},
     header: {
-      authorization:
-        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNqdGdzaGl2YW0ifQ.vzWhvz8B8qnFvMDCZ5euP7Dfh0cZLbCcoLsMdaraFQY",
+      authorization: authToken,
     },
   },
   {
@@ -123,8 +121,7 @@ export const sample_requests = [
     query_str: "",
     body: {},
     header: {
-      authorization:
-        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNqdGdzaGl2YW0ifQ.vzWhvz8B8qnFvMDCZ5euP7Dfh0cZLbCcoLsMdaraFQY",
+      authorization: authToken,
     },
   },
   // {
