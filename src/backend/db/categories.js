@@ -2,8 +2,9 @@ export const categories = [
   {
     id: "11",
     title: "HTML",
-    description: "this is category for html",
-    image: "/gvh/ghvg",
+    description:
+      "Take this quiz to test your HTML skills, each set contains 5 questions having points according to the level you've chosen.",
+    image: "assets/images/HTML.jpg",
     category_type: "FEATURED",
     tags: ["HTML"],
     timer_detail: [
@@ -14,11 +15,12 @@ export const categories = [
   },
   {
     id: "12",
-    title: "HTML",
-    description: "this is category for html",
-    image: "/gvh/ghvg",
-    category_type: "PERSONAL",
-    tags: ["HTML"],
+    title: "CSS",
+    description:
+      "Take this quiz to test your CSS skills, each set contains 5 questions having points according to the level you've chosen.",
+    image: "assets/images/CSS.jpg",
+    category_type: "FEATURED",
+    tags: ["CSS"],
     timer_detail: [
       { level: "EASY", time: 30 },
       { level: "MED", time: 70 },
@@ -26,12 +28,13 @@ export const categories = [
     ],
   },
   {
-    id: "123",
-    title: "Js",
-    description: "this is category for html",
-    image: "/gvh/ghvg",
+    id: "13",
+    title: "JS",
+    description:
+      "Take this quiz to test your JS skills, each set contains 5 questions having points according to the level you've chosen.",
+    image: "assets/images/JS.jpg",
     category_type: "FEATURED",
-    tags: ["HTML"],
+    tags: ["JS  "],
     timer_detail: [
       { level: "EASY", time: 30 },
       { level: "MED", time: 70 },

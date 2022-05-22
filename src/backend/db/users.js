@@ -1,13 +1,15 @@
+import { getCurrentDateTime } from '../utils';
+
 export const users = [
   {
     id: "666",
     fname: "Shivam",
     lname: "Pandey",
-    username: "sjtgshivam",
+    username: "SPandey",
     password: "acheDin",
     dob: "1997-03-07",
     contact: 8057700000,
-    email: "randomshivam@gmail.com",
+    email: "randoms@gmail.com",
     createdAt: getCurrentDateTime(),
     updatedAt: getCurrentDateTime(),
     score: 70,
@@ -15,15 +17,16 @@ export const users = [
     recentlyPlayed: [
       {
         category: {
-          id: "11",
-          title: "HTML",
-          description: "this is category for html",
-          image: "/gvh/ghvg",
+          id: "13",
+          title: "JS",
+          description:
+            "Take this quiz to test your JS skills, each set contains 5 questions having points according to the level you've chosen.",
+          image: "assets/images/JS.jpg",
           category_type: "FEATURED",
-          tags: ["HTML"],
+          tags: ["JS  "],
           timer_detail: [
             { level: "EASY", time: 30 },
-            { level: "MED", time: 60 },
+            { level: "MED", time: 70 },
             { level: "HARD", time: 90 },
           ],
         },
@@ -31,15 +34,16 @@ export const users = [
       },
       {
         category: {
-          id: "11",
-          title: "HTML",
-          description: "this is category for html",
-          image: "/gvh/ghvg",
+          id: "12",
+          title: "CSS",
+          description:
+            "Take this quiz to test your CSS skills, each set contains 5 questions having points according to the level you've chosen.",
+          image: "assets/images/CSS.jpg",
           category_type: "FEATURED",
-          tags: ["HTML"],
+          tags: ["CSS"],
           timer_detail: [
             { level: "EASY", time: 30 },
-            { level: "MED", time: 60 },
+            { level: "MED", time: 70 },
             { level: "HARD", time: 90 },
           ],
         },
@@ -49,8 +53,9 @@ export const users = [
         category: {
           id: "11",
           title: "HTML",
-          description: "this is category for html",
-          image: "/gvh/ghvg",
+          description:
+            "Take this quiz to test your HTML skills, each set contains 5 questions having points according to the level you've chosen.",
+          image: "assets/images/HTML.jpg",
           category_type: "FEATURED",
           tags: ["HTML"],
           timer_detail: [
@@ -62,18 +67,18 @@ export const users = [
         level: "HARD",
       },
     ],
-    correctAnswered: 70,
+    correctAnswered: 35,
     incorrectAnswered: 30,
     role: "ADMIN",
   },
   {
-    id: "661",
-    fname: "Raj",
+    id: "667",
+    fname: "Rajeev",
     lname: "Verma",
-    username: "RajV",
-    password: "acheDin",
-    dob: "1997-03-07",
-    contact: 8057700000,
+    username: "VermaRajeev",
+    password: "acheDinn",
+    dob: "1998-04-09",
+    contact: 8057700001,
     email: "rajv@gmail.com",
     createdAt: getCurrentDateTime(),
     updatedAt: getCurrentDateTime(),
@@ -82,15 +87,16 @@ export const users = [
     recentlyPlayed: [
       {
         category: {
-          id: "11",
-          title: "HTML",
-          description: "this is category for html",
-          image: "/gvh/ghvg",
+          id: "12",
+          title: "CSS",
+          description:
+            "Take this quiz to test your CSS skills, each set contains 5 questions having points according to the level you've chosen.",
+          image: "assets/images/CSS.jpg",
           category_type: "FEATURED",
-          tags: ["HTML"],
+          tags: ["CSS"],
           timer_detail: [
             { level: "EASY", time: 30 },
-            { level: "MED", time: 60 },
+            { level: "MED", time: 70 },
             { level: "HARD", time: 90 },
           ],
         },
@@ -100,8 +106,9 @@ export const users = [
         category: {
           id: "11",
           title: "HTML",
-          description: "this is category for html",
-          image: "/gvh/ghvg",
+          description:
+            "Take this quiz to test your HTML skills, each set contains 5 questions having points according to the level you've chosen.",
+          image: "assets/images/HTML.jpg",
           category_type: "FEATURED",
           tags: ["HTML"],
           timer_detail: [
@@ -114,15 +121,16 @@ export const users = [
       },
       {
         category: {
-          id: "11",
-          title: "HTML",
-          description: "this is category for html",
-          image: "/gvh/ghvg",
+          id: "13",
+          title: "JS",
+          description:
+            "Take this quiz to test your JS skills, each set contains 5 questions having points according to the level you've chosen.",
+          image: "assets/images/JS.jpg",
           category_type: "FEATURED",
-          tags: ["HTML"],
+          tags: ["JS  "],
           timer_detail: [
             { level: "EASY", time: 30 },
-            { level: "MED", time: 60 },
+            { level: "MED", time: 70 },
             { level: "HARD", time: 90 },
           ],
         },
@@ -135,11 +143,11 @@ export const users = [
   },
   {
     id: "611",
-    fname: "Rajlaxmi",
-    lname: "Verma",
-    username: "rlax",
-    password: "acheDin",
-    dob: "1997-03-07",
+    fname: "Lakshmi",
+    lname: "",
+    username: "lakshmi67",
+    password: "keyLobster",
+    dob: "1999-04-08",
     contact: 8057700000,
     email: "rlax@gmail.com",
     createdAt: getCurrentDateTime(),
@@ -149,15 +157,16 @@ export const users = [
     recentlyPlayed: [
       {
         category: {
-          id: "11",
-          title: "HTML",
-          description: "this is category for html",
-          image: "/gvh/ghvg",
+          id: "12",
+          title: "CSS",
+          description:
+            "Take this quiz to test your CSS skills, each set contains 5 questions having points according to the level you've chosen.",
+          image: "assets/images/CSS.jpg",
           category_type: "FEATURED",
-          tags: ["HTML"],
+          tags: ["CSS"],
           timer_detail: [
             { level: "EASY", time: 30 },
-            { level: "MED", time: 60 },
+            { level: "MED", time: 70 },
             { level: "HARD", time: 90 },
           ],
         },
@@ -167,8 +176,9 @@ export const users = [
         category: {
           id: "11",
           title: "HTML",
-          description: "this is category for html",
-          image: "/gvh/ghvg",
+          description:
+            "Take this quiz to test your HTML skills, each set contains 5 questions having points according to the level you've chosen.",
+          image: "assets/images/HTML.jpg",
           category_type: "FEATURED",
           tags: ["HTML"],
           timer_detail: [
@@ -183,8 +193,9 @@ export const users = [
         category: {
           id: "11",
           title: "HTML",
-          description: "this is category for html",
-          image: "/gvh/ghvg",
+          description:
+            "Take this quiz to test your HTML skills, each set contains 5 questions having points according to the level you've chosen.",
+          image: "assets/images/HTML.jpg",
           category_type: "FEATURED",
           tags: ["HTML"],
           timer_detail: [
@@ -197,34 +208,35 @@ export const users = [
       },
     ],
     correctAnswered: 50,
-    incorrectAnswered: 50,
+    incorrectAnswered: 0,
     role: "PLAYER",
   },
   {
     id: "6155",
-    fname: "Shweta",
+    fname: "Snehal",
     lname: "Sharma",
-    username: "shws",
-    password: "acheDin",
+    username: "snehalSharma",
+    password: "toppwd",
     dob: "1997-03-07",
-    contact: 8057700000,
-    email: "shws@gmail.com",
+    contact: 8057700022,
+    email: "ss@gmail.com",
     createdAt: getCurrentDateTime(),
     updatedAt: getCurrentDateTime(),
-    score: 45,
-    quizPlayed: 10,
+    score: 87,
+    quizPlayed: 7,
     recentlyPlayed: [
       {
         category: {
-          id: "11",
-          title: "HTML",
-          description: "this is category for html",
-          image: "/gvh/ghvg",
+          id: "13",
+          title: "JS",
+          description:
+            "Take this quiz to test your JS skills, each set contains 5 questions having points according to the level you've chosen.",
+          image: "assets/images/JS.jpg",
           category_type: "FEATURED",
-          tags: ["HTML"],
+          tags: ["JS  "],
           timer_detail: [
             { level: "EASY", time: 30 },
-            { level: "MED", time: 60 },
+            { level: "MED", time: 70 },
             { level: "HARD", time: 90 },
           ],
         },
@@ -232,15 +244,16 @@ export const users = [
       },
       {
         category: {
-          id: "11",
-          title: "HTML",
-          description: "this is category for html",
-          image: "/gvh/ghvg",
+          id: "13",
+          title: "JS",
+          description:
+            "Take this quiz to test your JS skills, each set contains 5 questions having points according to the level you've chosen.",
+          image: "assets/images/JS.jpg",
           category_type: "FEATURED",
-          tags: ["HTML"],
+          tags: ["JS  "],
           timer_detail: [
             { level: "EASY", time: 30 },
-            { level: "MED", time: 60 },
+            { level: "MED", time: 70 },
             { level: "HARD", time: 90 },
           ],
         },
@@ -250,8 +263,9 @@ export const users = [
         category: {
           id: "11",
           title: "HTML",
-          description: "this is category for html",
-          image: "/gvh/ghvg",
+          description:
+            "Take this quiz to test your HTML skills, each set contains 5 questions having points according to the level you've chosen.",
+          image: "assets/images/HTML.jpg",
           category_type: "FEATURED",
           tags: ["HTML"],
           timer_detail: [
@@ -263,30 +277,31 @@ export const users = [
         level: "HARD",
       },
     ],
-    correctAnswered: 45,
-    incorrectAnswered: 55,
+    correctAnswered: 25,
+    incorrectAnswered: 10,
     role: "PLAYER",
   },
   {
     id: "68855",
     fname: "Vikram",
-    lname: "Sharma",
-    username: "vks",
-    password: "acheDin",
-    dob: "1997-03-07",
+    lname: "Kochhar",
+    username: "vikram",
+    password: "blazingD",
+    dob: "1999-12-24",
     contact: 8057700000,
     email: "vks@gmail.com",
     createdAt: getCurrentDateTime(),
     updatedAt: getCurrentDateTime(),
     score: 43,
-    quizPlayed: 10,
+    quizPlayed: 13,
     recentlyPlayed: [
       {
         category: {
           id: "11",
           title: "HTML",
-          description: "this is category for html",
-          image: "/gvh/ghvg",
+          description:
+            "Take this quiz to test your HTML skills, each set contains 5 questions having points according to the level you've chosen.",
+          image: "assets/images/HTML.jpg",
           category_type: "FEATURED",
           tags: ["HTML"],
           timer_detail: [
@@ -301,8 +316,9 @@ export const users = [
         category: {
           id: "11",
           title: "HTML",
-          description: "this is category for html",
-          image: "/gvh/ghvg",
+          description:
+            "Take this quiz to test your HTML skills, each set contains 5 questions having points according to the level you've chosen.",
+          image: "assets/images/HTML.jpg",
           category_type: "FEATURED",
           tags: ["HTML"],
           timer_detail: [
@@ -317,8 +333,9 @@ export const users = [
         category: {
           id: "11",
           title: "HTML",
-          description: "this is category for html",
-          image: "/gvh/ghvg",
+          description:
+            "Take this quiz to test your HTML skills, each set contains 5 questions having points according to the level you've chosen.",
+          image: "assets/images/HTML.jpg",
           category_type: "FEATURED",
           tags: ["HTML"],
           timer_detail: [
@@ -330,35 +347,36 @@ export const users = [
         level: "HARD",
       },
     ],
-    correctAnswered: 43,
-    incorrectAnswered: 57,
+    correctAnswered: 53,
+    incorrectAnswered: 12,
     role: "PLAYER",
   },
   {
     id: "78855",
     fname: "Dhruv",
-    lname: "Sharma",
-    username: "drvs",
-    password: "acheDin",
-    dob: "1997-03-07",
-    contact: 8057700000,
+    lname: "Pandey",
+    username: "dhruvPandey",
+    password: "acheDinhai",
+    dob: "1993-07-17",
+    contact: 8057700023,
     email: "drvs@gmail.com",
     createdAt: getCurrentDateTime(),
     updatedAt: getCurrentDateTime(),
     score: 42,
-    quizPlayed: 10,
+    quizPlayed: 14,
     recentlyPlayed: [
       {
         category: {
-          id: "11",
-          title: "HTML",
-          description: "this is category for html",
-          image: "/gvh/ghvg",
+          id: "12",
+          title: "CSS",
+          description:
+            "Take this quiz to test your CSS skills, each set contains 5 questions having points according to the level you've chosen.",
+          image: "assets/images/CSS.jpg",
           category_type: "FEATURED",
-          tags: ["HTML"],
+          tags: ["CSS"],
           timer_detail: [
             { level: "EASY", time: 30 },
-            { level: "MED", time: 60 },
+            { level: "MED", time: 70 },
             { level: "HARD", time: 90 },
           ],
         },
@@ -366,15 +384,16 @@ export const users = [
       },
       {
         category: {
-          id: "11",
-          title: "HTML",
-          description: "this is category for html",
-          image: "/gvh/ghvg",
+          id: "13",
+          title: "JS",
+          description:
+            "Take this quiz to test your JS skills, each set contains 5 questions having points according to the level you've chosen.",
+          image: "assets/images/JS.jpg",
           category_type: "FEATURED",
-          tags: ["HTML"],
+          tags: ["JS  "],
           timer_detail: [
             { level: "EASY", time: 30 },
-            { level: "MED", time: 60 },
+            { level: "MED", time: 70 },
             { level: "HARD", time: 90 },
           ],
         },
@@ -382,15 +401,16 @@ export const users = [
       },
       {
         category: {
-          id: "11",
-          title: "HTML",
-          description: "this is category for html",
-          image: "/gvh/ghvg",
+          id: "12",
+          title: "CSS",
+          description:
+            "Take this quiz to test your CSS skills, each set contains 5 questions having points according to the level you've chosen.",
+          image: "assets/images/CSS.jpg",
           category_type: "FEATURED",
-          tags: ["HTML"],
+          tags: ["CSS"],
           timer_detail: [
             { level: "EASY", time: 30 },
-            { level: "MED", time: 60 },
+            { level: "MED", time: 70 },
             { level: "HARD", time: 90 },
           ],
         },
@@ -404,23 +424,24 @@ export const users = [
   {
     id: "788535",
     fname: "Deepak",
-    lname: "Sharma",
-    username: "deep",
-    password: "acheDin",
-    dob: "1997-03-07",
-    contact: 8057700000,
+    lname: "Aggarwal",
+    username: "@DeepAggarwal",
+    password: "acheDincomingsoon",
+    dob: "1994-09-15",
+    contact: 8057700034,
     email: "deep@gmail.com",
     createdAt: getCurrentDateTime(),
     updatedAt: getCurrentDateTime(),
-    score: 41,
-    quizPlayed: 10,
+    score: 80,
+    quizPlayed: 4,
     recentlyPlayed: [
       {
         category: {
           id: "11",
           title: "HTML",
-          description: "this is category for html",
-          image: "/gvh/ghvg",
+          description:
+            "Take this quiz to test your HTML skills, each set contains 5 questions having points according to the level you've chosen.",
+          image: "assets/images/HTML.jpg",
           category_type: "FEATURED",
           tags: ["HTML"],
           timer_detail: [
@@ -435,8 +456,9 @@ export const users = [
         category: {
           id: "11",
           title: "HTML",
-          description: "this is category for html",
-          image: "/gvh/ghvg",
+          description:
+            "Take this quiz to test your HTML skills, each set contains 5 questions having points according to the level you've chosen.",
+          image: "assets/images/HTML.jpg",
           category_type: "FEATURED",
           tags: ["HTML"],
           timer_detail: [
@@ -451,8 +473,9 @@ export const users = [
         category: {
           id: "11",
           title: "HTML",
-          description: "this is category for html",
-          image: "/gvh/ghvg",
+          description:
+            "Take this quiz to test your HTML skills, each set contains 5 questions having points according to the level you've chosen.",
+          image: "assets/images/HTML.jpg",
           category_type: "FEATURED",
           tags: ["HTML"],
           timer_detail: [
@@ -464,209 +487,8 @@ export const users = [
         level: "HARD",
       },
     ],
-    correctAnswered: 41,
-    incorrectAnswered: 59,
-    role: "PLAYER",
-  },
-  {
-    id: "568535",
-    fname: "Shivang",
-    lname: "Sharma",
-    username: "Shiv",
-    password: "acheDin",
-    dob: "1997-03-07",
-    contact: 8057700000,
-    email: "Shiv@gmail.com",
-    createdAt: getCurrentDateTime(),
-    updatedAt: getCurrentDateTime(),
-    score: 40,
-    quizPlayed: 10,
-    recentlyPlayed: [
-      {
-        category: {
-          id: "11",
-          title: "HTML",
-          description: "this is category for html",
-          image: "/gvh/ghvg",
-          category_type: "FEATURED",
-          tags: ["HTML"],
-          timer_detail: [
-            { level: "EASY", time: 30 },
-            { level: "MED", time: 60 },
-            { level: "HARD", time: 90 },
-          ],
-        },
-        level: "EASY",
-      },
-      {
-        category: {
-          id: "11",
-          title: "HTML",
-          description: "this is category for html",
-          image: "/gvh/ghvg",
-          category_type: "FEATURED",
-          tags: ["HTML"],
-          timer_detail: [
-            { level: "EASY", time: 30 },
-            { level: "MED", time: 60 },
-            { level: "HARD", time: 90 },
-          ],
-        },
-        level: "MED",
-      },
-      {
-        category: {
-          id: "11",
-          title: "HTML",
-          description: "this is category for html",
-          image: "/gvh/ghvg",
-          category_type: "FEATURED",
-          tags: ["HTML"],
-          timer_detail: [
-            { level: "EASY", time: 30 },
-            { level: "MED", time: 60 },
-            { level: "HARD", time: 90 },
-          ],
-        },
-        level: "HARD",
-      },
-    ],
-    correctAnswered: 40,
-    incorrectAnswered: 60,
-    role: "PLAYER",
-  },
-  {
-    id: "1168535",
-    fname: "Shivangi",
-    lname: "Sharma",
-    username: "Shivi",
-    password: "acheDin",
-    dob: "1997-03-07",
-    contact: 8057700000,
-    email: "Shivi@gmail.com",
-    createdAt: getCurrentDateTime(),
-    updatedAt: getCurrentDateTime(),
-    score: 30,
-    quizPlayed: 10,
-    recentlyPlayed: [
-      {
-        category: {
-          id: "11",
-          title: "HTML",
-          description: "this is category for html",
-          image: "/gvh/ghvg",
-          category_type: "FEATURED",
-          tags: ["HTML"],
-          timer_detail: [
-            { level: "EASY", time: 30 },
-            { level: "MED", time: 60 },
-            { level: "HARD", time: 90 },
-          ],
-        },
-        level: "EASY",
-      },
-      {
-        category: {
-          id: "11",
-          title: "HTML",
-          description: "this is category for html",
-          image: "/gvh/ghvg",
-          category_type: "FEATURED",
-          tags: ["HTML"],
-          timer_detail: [
-            { level: "EASY", time: 30 },
-            { level: "MED", time: 60 },
-            { level: "HARD", time: 90 },
-          ],
-        },
-        level: "MED",
-      },
-      {
-        category: {
-          id: "11",
-          title: "HTML",
-          description: "this is category for html",
-          image: "/gvh/ghvg",
-          category_type: "FEATURED",
-          tags: ["HTML"],
-          timer_detail: [
-            { level: "EASY", time: 30 },
-            { level: "MED", time: 60 },
-            { level: "HARD", time: 90 },
-          ],
-        },
-        level: "HARD",
-      },
-    ],
-    correctAnswered: 30,
-    incorrectAnswered: 70,
-    role: "PLAYER",
-  },
-  {
-    id: "1368535",
-    fname: "Arun",
-    lname: "Sharma",
-    username: "Aru",
-    password: "acheDin",
-    dob: "1997-03-07",
-    contact: 8057700000,
-    email: "Aru@gmail.com",
-    createdAt: getCurrentDateTime(),
-    updatedAt: getCurrentDateTime(),
-    score: 20,
-    quizPlayed: 10,
-    recentlyPlayed: [
-      {
-        category: {
-          id: "11",
-          title: "HTML",
-          description: "this is category for html",
-          image: "/gvh/ghvg",
-          category_type: "FEATURED",
-          tags: ["HTML"],
-          timer_detail: [
-            { level: "EASY", time: 30 },
-            { level: "MED", time: 60 },
-            { level: "HARD", time: 90 },
-          ],
-        },
-        level: "EASY",
-      },
-      {
-        category: {
-          id: "11",
-          title: "HTML",
-          description: "this is category for html",
-          image: "/gvh/ghvg",
-          category_type: "FEATURED",
-          tags: ["HTML"],
-          timer_detail: [
-            { level: "EASY", time: 30 },
-            { level: "MED", time: 60 },
-            { level: "HARD", time: 90 },
-          ],
-        },
-        level: "MED",
-      },
-      {
-        category: {
-          id: "11",
-          title: "HTML",
-          description: "this is category for html",
-          image: "/gvh/ghvg",
-          category_type: "FEATURED",
-          tags: ["HTML"],
-          timer_detail: [
-            { level: "EASY", time: 30 },
-            { level: "MED", time: 60 },
-            { level: "HARD", time: 90 },
-          ],
-        },
-        level: "HARD",
-      },
-    ],
-    correctAnswered: 20,
-    incorrectAnswered: 80,
+    correctAnswered: 17,
+    incorrectAnswered: 3,
     role: "PLAYER",
   },
 ];
