@@ -2,7 +2,7 @@ export const highscores = [
   {
     id: "666",
     rank: 10,
-    username: "SPandey",
+    username: "sjtgshivam",
     score: 70,
   },
   {

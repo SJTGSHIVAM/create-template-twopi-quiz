@@ -5,7 +5,7 @@ export const users = [
     id: "666",
     fname: "Shivam",
     lname: "Pandey",
-    username: "SPandey",
+    username: "sjtgshivam",
     password: "acheDin",
     dob: "1997-03-07",
     contact: 8057700000,
