@@ -1,6 +1,6 @@
 {
-  "name": "create-template-twopi-quiz",
-  "version": "0.1.2",
+  "name": "cra-template-twopi-quiz",
+  "version": "0.1.3",
   "description": "This template packs a pre-build mockserver with cra to help beginner start developing frontend applications with out worring much about backend.",
   "author": "Shivam Pandey",
   "license": "MIT",
