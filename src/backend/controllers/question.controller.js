@@ -1,3 +1,5 @@
+import { Response } from 'miragejs';
+
 import {
   requiresAuth,
   shuffleArray,
